@@ -38,17 +38,22 @@ It helps you **track POTD (Problem of the Day)** and **get notified about upcomi
 ---
 
 ## 📦 Project Structure
-
+```
 contest-extension/
 ├── manifest.json
-├── popup.html
-├── popup.js
-├── background.js
-├── styles.css
-├── icons/
+├── popup/
+│ ├── popup.html
+│ ├── popup.js
+│ └── popup.css
+├── background/
+│ └── background.js
+├── assets/
+│ └── icons/
 │ ├── icon16.png
 │ ├── icon48.png
 │ └── icon128.png
+└── README.md
+```
 ---
 
 ## 🧩 Permissions Used

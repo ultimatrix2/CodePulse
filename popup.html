@@ -1,0 +1,56 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contests & POTD</title>
+  <link rel="stylesheet" href="styles.css"/>
+  
+</head>
+<body>
+  <header class="header">
+    <h1> POTDs </h1>
+    <button id="refresh" class="icon-btn">Refresh</button>
+  </header>
+
+  <section class="section">
+  <div class="card">
+    <div class="row" style="justify-content: space-between; align-items:center;">
+      <div>
+        <span class="pill leet">LeetCode POTD</span>
+        <button id="btn-leetcode" class="potd-btn">Open</button>
+      </div>
+      <input id="potd-leetcode" type="checkbox" class="checkbox"/>
+    </div>
+
+    <div class="row" style="justify-content: space-between; align-items:center; margin-top:8px;">
+      <div>
+        <span class="pill gfg">GFG POTD</span>
+        <button id="btn-gfg" class="potd-btn">Open</button>
+      </div>
+      <input id="potd-gfg" type="checkbox" class="checkbox"/>
+    </div>
+
+    <div class="small" id="potd-note" style="margin-top:8px;">
+      Resets daily at 12:00 AM.
+    </div>
+  </div>
+</section>
+
+
+  <section class="section">
+    <div class="card">
+      <div class="row" style="justify-content: space-between; align-items:center;">
+        <h3 style="padding-bottom:5px;"> Upcoming Contest </h3>
+        <span class="status" id="updatedAt">—</span>
+      </div>
+      <div class="list" id="contestList"></div>
+    </div>
+  </section>
+
+  <div class="footer">made with 🤍  by npsy </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

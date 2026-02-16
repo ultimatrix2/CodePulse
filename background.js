@@ -1,6 +1,6 @@
 const STORAGE_KEY_CONTESTS = "cachedContests";
-const CLIST_USER = "ultimatrix";
-const CLIST_API_KEY = "414d29f61678c9f49a110ff270894c33e225eeb3";
+const CLIST_USER = PASTE_USER_CLIST;
+const CLIST_API_KEY = PASTE_CLIST_API_KEY;
 const HOURS_WINDOW = 200; // 100 hours ahead
 const REFRESH_EVERY_MIN = 180; // 3 hours
 const allowedResources = ["codeforces", "codechef", "leetcode"];
